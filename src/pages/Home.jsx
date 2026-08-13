@@ -101,11 +101,30 @@ export default function Home({ coins, setCoins }) {
       </div>
 
       <div ref={uiRef} className="opacity-0">
-        {/* Hero Overlay - Blank to allow scroll over Canvas */}
-        <div className="relative z-10 min-h-screen pointer-events-none"></div>
+        {/* Hero Overlay - HTML text over the Canvas */}
+        <div className="relative z-10 min-h-screen pointer-events-none flex flex-col items-center justify-center -mt-10">
+          <h3 
+            className="text-3xl md:text-4xl text-[#E63E8C] font-bold drop-shadow-md mb-2 opacity-90"
+            style={{ fontFamily: "'Dancing Script', cursive" }}
+          >
+            Happy 14th Birthday
+          </h3>
+          <h1 
+            className="text-8xl md:text-[10rem] text-[#FF69B4] font-bold drop-shadow-[0_0_15px_rgba(255,105,180,0.5)] leading-none text-transparent bg-clip-text bg-gradient-to-br from-[#E63E8C] to-[#FF9FFC]"
+            style={{ fontFamily: "'Dancing Script', cursive", WebkitTextStroke: '2px white' }}
+          >
+            {content.heroName}
+          </h1>
+          <p 
+            className="text-xl md:text-2xl text-gray-700 drop-shadow-sm font-medium italic mt-6"
+            style={{ fontFamily: "'Playfair Display', serif" }}
+          >
+            Welcome to your time machine...
+          </p>
+        </div>
 
         {/* Bouncing Scroll Prompt (pinned to hero screen) */}
-        <div ref={scrollPromptRef} className="absolute top-[85vh] left-1/2 transform -translate-x-1/2 z-20 flex flex-col items-center animate-bounce pointer-events-none">
+        <div ref={scrollPromptRef} className="fixed bottom-10 left-0 w-full z-20 flex flex-col items-center justify-center animate-bounce pointer-events-none">
           <span className="text-[#E63E8C] font-semibold text-sm uppercase tracking-widest mb-2">Scroll to begin</span>
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#E63E8C]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />

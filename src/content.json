@@ -50,39 +50,80 @@
   ],
   "lovedOneMessages": [
     {
-      "name": "Mom",
-      "message": "My sweet [BARBI], watching you grow up has been the greatest joy of my life. Happy Birthday, my darling!"
+      "name": "MA",
+      "message": "মানুষ এর মতো মানুষ হও উন্নতির শিখরে পৌঁছাও । তোমার সুস্থতা কামনা করি ❤️"
     },
     {
-      "name": "Dad",
-      "message": "Happy Birthday, [BARBI]! Stay as bright and fearless as you are today. We're so proud of you."
+      "name": "BABA",
+      "message": "শুভ জন্মদিন অনেক অনেক ভালোবাসা রইলো । জীবনে অনেক বড় হও।❤️"
+    },
+    {
+      "name": "GARGI",
+      "message": "happy birthday idur... amar jama pora gulo aktu kom kor .. ar amake jalano tau ... ar bhogobaner kache dine 2 bar kore pronam korbi ar bolbi ki bhalo didi diyecho bhogoban tumi amake "
+    },
+    {
+      "name": "RIK DADABHAI",
+      "message": "Happy Birthday choto bunu\nHappy 14th birthday\nBhalo thak , khusi thak.\nSei din gulo akhono bhase chokher samne, Dekhte dekhte mela somoy e kete gelo, \nSei kole theke nia , prai same height. \nJak besi bolbo na, but abaro miss korlam tor birthday. To no tension next time songe hobe sob. Enjoy kor tor din take."
+    },
+    {
+      "name": "ADRIJA",
+      "message": "Happiest birthday to the gurll who feels like home.You are my comfort and my favourite blessing.every moment with you feels special,and every memory with you stays close to my heart."
+    },
+    {
+      "name": "PUJA",
+      "message": "Happy birth day barbi\nBtw tui choto tei bhalo chilis ato boro hochis keno bolto... ki sundor choto te toke chotkatam golmotol cute chili \nAr akhon pagli pagli lage hight e lomba adik boyos naki 14 \nChoto hoye ja tui.. age ki sundor sobai bolto puja r bon ar akhon bole puja r didi mone hoche\nGargi ke ke nahoi sidei rakhlam 🫢 \nBTW happy birth day cutie.. ❤️"
     }
   ],
   "finaleMessage": "Okay [TIKTIKI], real talk for one second — no matter how much I tease you, you're genuinely one of my favorite humans on this planet. 14 is going to be a good year on you, I can already tell. Stay weird, stay loud, stay exactly you. Happy Birthday, my favorite pain in the neck. Now go blow out that candle already. 🎂💗",
   "quizzes": [
     {
       "question": "I speak without a mouth and hear without ears. What am I?",
-      "options": ["A ghost", "An echo", "A shadow", "A mirror"],
+      "options": [
+        "A ghost",
+        "An echo",
+        "A shadow",
+        "A mirror"
+      ],
       "answer": "An echo"
     },
     {
       "question": "If you drop a yellow hat in the Red Sea, what does it become?",
-      "options": ["Orange", "Wet", "Red", "Floating"],
+      "options": [
+        "Orange",
+        "Wet",
+        "Red",
+        "Floating"
+      ],
       "answer": "Wet"
     },
     {
       "question": "What has keys but can't open locks?",
-      "options": ["A piano", "A map", "A computer", "Both A and C"],
+      "options": [
+        "A piano",
+        "A map",
+        "A computer",
+        "Both A and C"
+      ],
       "answer": "Both A and C"
     },
     {
       "question": "You see a boat filled with people, yet there isn't a single person on board. How?",
-      "options": ["They are ghosts", "They are married", "It's a submarine", "It's sinking"],
+      "options": [
+        "They are ghosts",
+        "They are married",
+        "It's a submarine",
+        "It's sinking"
+      ],
       "answer": "They are married"
     },
     {
       "question": "What gets wetter the more it dries?",
-      "options": ["A sponge", "A towel", "Water", "Hair"],
+      "options": [
+        "A sponge",
+        "A towel",
+        "Water",
+        "Hair"
+      ],
       "answer": "A towel"
     }
   ]

@@ -88,20 +88,7 @@ export default function HeroScene() {
       {/* Ambient background particles */}
       <Sparkles count={150} scale={15} size={2} speed={0.4} color={colors.goldAccent} opacity={0.6} />
 
-      {/* Hero Text Centered */}
-      <Float speed={2} rotationIntensity={0.1} floatIntensity={0.5}>
-        <Text
-          position={[0, 0, 1]}
-          fontSize={Math.min(viewport.width / 6, 3)} // Scale text dynamically
-          color={colors.deepPinkAccent}
-          anchorX="center"
-          anchorY="middle"
-          outlineWidth={0.03}
-          outlineColor="#ffffff"
-        >
-          {content.heroName}
-        </Text>
-      </Float>
+      {/* Removed 3D Text in favor of HTML overlay for better typography */}
 
       {/* Floating Glass-morphic Cards beautifully spaced */}
       {collagePhotos[0] && <FloatingCard position={[-xOffset, yOffset, 0]} rotation={[0, 0, -0.1]} speed={1} offset={0} photoSrc={collagePhotos[0]} />}
