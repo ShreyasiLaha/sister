@@ -14,9 +14,8 @@ export default function WelcomeScene() {
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: containerRef.current,
-        start: 'top 70%',
-        end: 'bottom 80%',
-        toggleActions: 'play none none reverse',
+        start: 'top 80%',
+        toggleActions: 'play none none none',
       }
     })
 

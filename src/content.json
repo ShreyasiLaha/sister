@@ -1,7 +1,7 @@
 {
   "heroName": "Ayushi",
   "welcomeMessage": "Oii [TEPI], Happy Birthday! 14 years of being the most annoying, most lovable disaster in my life. I still remember stealing your toys just to watch you cry and then giving them right back because your face is impossible to say no to. You've somehow gone from tiny chaos gremlin to a whole teenager now, and honestly? Still chaos, just taller. This entire website is my gift to you — every embarrassing baby photo, every memory, every bit of us. I love you so much, [TIKTIKI]. Now scroll before I change my mind and delete this whole thing.",
-  "welcomePhoto": "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?auto=format&fit=crop&q=80&w=800",
+  "welcomePhoto": "/uploads/welcome1.jpg",
   "childhoodPhotos": [
     {
       "src": "/uploads/childhood1.png",
@@ -131,6 +131,14 @@
         "Hair"
       ],
       "answer": "A towel"
+    }
+  ],
+  "familyPhotos": [
+    {
+      "src": "/uploads/family1.jpg"
+    },
+    {
+      "src": "/uploads/family2.jpg"
     }
   ]
 }

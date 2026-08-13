@@ -85,8 +85,8 @@ export default function FinaleScene({ coins, setCoins }) {
   const [noClicked, setNoClicked] = useState(false)
   const [isBlownOut, setIsBlownOut] = useState(false)
 
-  // Filter family photos
-  const familyPhotos = (content.friendsPhotos || []).filter(p => p.type === 'family')
+  // Get family photos
+  const familyPhotos = content.familyPhotos || []
 
   const handleUnlock = () => {
     if (coins >= 100) {
@@ -242,8 +242,13 @@ export default function FinaleScene({ coins, setCoins }) {
             ))}
           </div>
         )}
+
+        <div className="mt-20 mb-8 text-center animate-pulse">
+          <h2 className="text-5xl md:text-6xl font-bold text-[#E63E8C] drop-shadow-[0_0_15px_rgba(230,62,140,0.4)]" style={{ fontFamily: "'Dancing Script', cursive" }}>
+            Once again, Happy Birthday!
+          </h2>
+        </div>
       </div>
-      
     </div>
   )
 }
