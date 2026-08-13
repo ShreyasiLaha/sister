@@ -48,7 +48,7 @@ export default function FriendsScene() {
         <div ref={containerRef} className="relative w-full h-full flex items-center justify-center">
           {/* Central Anchor */}
           <div className="absolute w-32 h-32 rounded-full bg-gradient-to-tr from-[#FFD6E8] to-[#FF8FB1] shadow-[0_0_40px_rgba(255,143,177,0.5)] flex items-center justify-center z-10 border-4 border-white">
-             <span className="text-white font-bold text-xl" style={{ fontFamily: "'Playfair Display', serif" }}>Friends</span>
+             <span className="text-white font-bold text-lg text-center leading-tight" style={{ fontFamily: "'Playfair Display', serif" }}>Comfort<br/>Zone</span>
           </div>
 
           {/* Orbiting Photos */}

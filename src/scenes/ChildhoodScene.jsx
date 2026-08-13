@@ -48,10 +48,14 @@ export default function ChildhoodScene() {
         {content.childhoodPhotos.map((photo, idx) => (
           <div 
             key={idx}
-            className="photo-card cursor-pointer group relative w-64 aspect-square rounded-2xl overflow-hidden shadow-xl border-4 border-white transition-transform hover:z-20 hover:scale-105"
+            className="photo-card cursor-pointer group relative w-[280px] sm:w-[320px] rounded-2xl overflow-hidden shadow-xl border-4 border-white transition-transform hover:z-20 hover:scale-105 bg-white"
             onClick={() => setSelectedPhoto(photo)}
           >
-            <img src={photo.src} alt="Childhood" className="w-full h-full object-cover" />
+            <img 
+              src={photo.src} 
+              alt="Childhood" 
+              className={`w-full block ${idx === 0 ? 'aspect-[4/5] object-cover object-center scale-110' : 'h-auto'}`} 
+            />
             <div className="absolute inset-0 bg-black/0 group-hover:bg-[#E63E8C]/20 transition-colors duration-300"></div>
           </div>
         ))}

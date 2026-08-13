@@ -27,12 +27,12 @@ export default function MilestonesScene() {
 
   return (
     <div className="relative z-10 min-h-[80vh] py-20 pointer-events-auto flex flex-col items-center">
-      <div className="text-center mb-16">
-        <h2 className="text-4xl md:text-5xl font-bold text-[#E63E8C]" style={{ fontFamily: "'Playfair Display', serif" }}>
-          Milestones & Highlights
+      <div className="text-center mb-16 relative z-20">
+        <h2 className="text-4xl md:text-5xl font-bold text-[#E63E8C] mb-4" style={{ fontFamily: "'Playfair Display', serif" }}>
+          Enjoying Moments
         </h2>
-        <p className="text-gray-700 mt-2 font-medium" style={{ fontFamily: "'Poppins', sans-serif" }}>
-          Moments that defined the journey.
+        <p className="text-gray-700 font-medium" style={{ fontFamily: "'Poppins', sans-serif" }}>
+          Just living life and having fun!
         </p>
       </div>
 

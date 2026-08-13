@@ -114,9 +114,7 @@ export default function GrowingUpScene() {
                 <div className="w-full aspect-square rounded-2xl overflow-hidden mb-4 border border-[#FFD6E8]">
                   <img src={photo.src} alt={`Year ${photo.year}`} className="w-full h-full object-cover pointer-events-none" />
                 </div>
-                <div className="bg-gradient-to-r from-[#E63E8C] to-[#FF8FB1] text-white px-6 py-1 rounded-full font-bold text-2xl mb-3 shadow-inner" style={{ fontFamily: "'Playfair Display', serif" }}>
-                  {photo.year}
-                </div>
+
                 <p className="text-gray-800 text-center font-medium pointer-events-none" style={{ fontFamily: "'Poppins', sans-serif" }}>
                   {photo.caption}
                 </p>

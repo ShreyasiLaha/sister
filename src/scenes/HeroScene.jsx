@@ -73,11 +73,11 @@ export default function HeroScene() {
   
   // Grab a few photos from the content to use in the collage
   const collagePhotos = [
-    content.welcomePhoto,
-    content.childhoodPhotos[0]?.src,
-    content.friendsPhotos[0]?.src,
-    content.milestones[0]?.photo
-  ].filter(Boolean)
+    '/uploads/hero1.png',
+    '/uploads/hero2.png',
+    '/uploads/hero3.jpg',
+    '/uploads/hero4.jpg'
+  ]
 
   // Calculate positions based on viewport to ensure they don't collapse or overlap on mobile
   const xOffset = viewport.width > 12 ? 4.5 : viewport.width / 2.5

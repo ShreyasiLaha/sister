@@ -272,7 +272,7 @@ export default function QuizPage({ coins, setCoins }) {
               You passed all the tests! You've unlocked the finale.
             </p>
             <Link 
-              to="/"
+              to="/#cake-scene"
               className="inline-block py-4 px-10 rounded-full bg-gradient-to-r from-[#FF8FB1] to-[#E63E8C] text-white text-xl font-bold shadow-lg hover:shadow-xl hover:scale-105 transition-all"
               style={{ fontFamily: "'Poppins', sans-serif" }}
             >

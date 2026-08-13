@@ -83,7 +83,7 @@ export default function MessagesScene() {
             return (
               <div 
                 key={idx}
-                className="absolute w-[320px] md:w-[380px] p-5 md:p-6 glass-panel bg-white/80 backdrop-blur-md border-2 border-white shadow-xl rounded-2xl flex flex-col hover:border-[#FF8FB1] transition-colors"
+                className="absolute w-[320px] md:w-[380px] p-5 md:p-6 glass-panel bg-white/80 backdrop-blur-md border-2 border-[#E63E8C] shadow-[0_0_20px_rgba(230,62,140,0.5)] rounded-2xl flex flex-col hover:border-[#FF8FB1] transition-colors"
                 style={{
                   transform: `rotateY(${angle}deg) translateZ(${radius}px)`,
                   // Ensure backface is visible so it looks like a real 3D circle

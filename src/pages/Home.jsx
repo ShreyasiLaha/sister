@@ -26,22 +26,28 @@ export default function Home({ coins, setCoins }) {
   const scrollPromptRef = useRef(null)
 
   useEffect(() => {
-    // Unwrapping Entrance Animation
-    const tl = gsap.timeline()
-    
     // Initial state
     gsap.set(appRef.current, { opacity: 0 })
     gsap.set(canvasRef.current, { opacity: 0 })
     gsap.set(uiRef.current, { opacity: 0, y: 30 })
-    
-    // 1. Sky fades in
-    tl.to(appRef.current, { opacity: 1, duration: 1.5, ease: 'power2.inOut' })
-    
-    // 2. Particles/Canvas fade in
-    tl.to(canvasRef.current, { opacity: 1, duration: 2, ease: 'power2.inOut' }, '-=0.5')
-    
-    // 3. UI/Text elements slide & fade up
-    tl.to(uiRef.current, { opacity: 1, y: 0, duration: 1.5, ease: 'back.out(1.2)' }, '-=1.0')
+
+    if (window.location.hash === '#cake-scene') {
+      // Fast forward if returning from games
+      gsap.set(appRef.current, { opacity: 1 })
+      gsap.set(canvasRef.current, { opacity: 1 })
+      gsap.set(uiRef.current, { opacity: 1, y: 0 })
+      
+      setTimeout(() => {
+        const cakeEl = document.getElementById('cake-scene')
+        if (cakeEl) cakeEl.scrollIntoView({ behavior: 'auto' })
+      }, 100)
+    } else {
+      // Unwrapping Entrance Animation
+      const tl = gsap.timeline()
+      tl.to(appRef.current, { opacity: 1, duration: 1.5, ease: 'power2.inOut' })
+      tl.to(canvasRef.current, { opacity: 1, duration: 2, ease: 'power2.inOut' }, '-=0.5')
+      tl.to(uiRef.current, { opacity: 1, y: 0, duration: 1.5, ease: 'back.out(1.2)' }, '-=1.0')
+    }
   }, [])
 
   return (
@@ -147,7 +153,9 @@ export default function Home({ coins, setCoins }) {
         <MilestonesScene />
         <MessagesScene />
         <PuzzleScene coins={coins} setCoins={setCoins} />
-        <FinaleScene coins={coins} setCoins={setCoins} />
+        <div id="cake-scene">
+          <FinaleScene coins={coins} setCoins={setCoins} />
+        </div>
       </div>
     </div>
   )
