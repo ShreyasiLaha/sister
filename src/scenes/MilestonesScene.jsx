@@ -42,7 +42,7 @@ export default function MilestonesScene() {
             key={idx}
             className="milestone-card w-full max-w-sm flex flex-col items-center glass-panel p-6 bg-white/60 backdrop-blur-xl border border-white rounded-3xl shadow-[0_0_30px_rgba(255,214,232,0.8)] hover:shadow-[0_0_50px_rgba(230,62,140,0.6)] transition-shadow duration-500"
           >
-            <div className="w-full aspect-square rounded-2xl overflow-hidden mb-6 border-4 border-white">
+            <div className="w-full aspect-[3/4] rounded-2xl overflow-hidden mb-6 border-4 border-white">
               <img src={item.photo} alt="Milestone" className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500" />
             </div>
             <p className="text-gray-800 text-center font-semibold text-lg" style={{ fontFamily: "'Poppins', sans-serif" }}>
