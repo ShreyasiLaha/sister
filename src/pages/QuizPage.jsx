@@ -124,7 +124,7 @@ function WordScramble({ onComplete }) {
 
 // Game 3: Blurred Memory
 function BlurredMemory({ onComplete }) {
-  const photo = content.welcomePhoto || "https://images.unsplash.com/photo-1518895949257-7621c3c786d7"
+  const photo = content.guessWhoPhoto || content.welcomePhoto || "https://images.unsplash.com/photo-1518895949257-7621c3c786d7"
   const [blurAmount, setBlurAmount] = useState(25)
   const [answer, setAnswer] = useState('')
   const [error, setError] = useState(false)

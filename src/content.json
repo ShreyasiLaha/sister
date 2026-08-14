@@ -140,5 +140,6 @@
     {
       "src": "/uploads/family2.jpg"
     }
-  ]
+  ],
+  "guessWhoPhoto": "/uploads/guesswho.jpg"
 }
